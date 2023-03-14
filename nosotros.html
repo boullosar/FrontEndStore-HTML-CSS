@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css"> <!-- tambien se podria poner la web directamente (href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"), pero eso solo funcionaria si hay internet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header"> <!-- BLOQUE header -->
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo"> <!-- ELEMENTO header__logo -->
+            <!-- alt es el texto alternativo que se pone en el link si no se carga la imagen -->
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+    
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor bibendum vulputate. Vestibulum quis accumsan velit. Sed auctor est a lorem bibendum, eget vehicula ex tincidunt. Vivamus ultrices nibh nec tincidunt convallis. Morbi sit amet justo ullamcorper, pellentesque nibh ut, ullamcorper felis.</p>
+                <p>Ut molestie maximus purus, quis malesuada arcu volutpat ut. Suspendisse mattis, dolor a placerat ultricies, justo nisl condimentum arcu, ac dapibus diam nunc eu lacus. Nam cursus lacinia elit pretium varius. Fusce rhoncus tincidunt nibh, sed ultrices turpis ornare ac. Phasellus pulvinar gravida urna non tristique.</p>
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros">
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo"> ¿Porqué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque__titulo">El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae massa magna. Nunc eget nisl mattis, consectetur dolor vel, consectetur massa</p>
+            </div> <!--bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Para devs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae massa magna. Nunc eget nisl mattis, consectetur dolor vel, consectetur massa</p>
+            </div> <!--bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Envios gratis</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae massa magna. Nunc eget nisl mattis, consectetur dolor vel, consectetur massa</p>
+            </div> <!--bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae massa magna. Nunc eget nisl mattis, consectetur dolor vel, consectetur massa</p>
+            </div> <!--bloque-->
+        </div> <!--bloques-->
+
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">FrontEnd store - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
